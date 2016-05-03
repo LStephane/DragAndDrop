@@ -1,0 +1,66 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+.cf:before,.cf:after {
+	content: " ";
+	display: table;
+}
+
+.cf:after {
+	clear: both;
+}
+
+#contener {
+	margin: 0 0 25px 0;
+}
+
+#colonne-liste-champs,#colonne-choix,#colonne-liste-modifier,#trash {
+	border: 1px grey solid;
+	width: 49%;
+	padding: 5px;
+}
+
+#colonne-liste-champs {
+	float: left;
+}
+
+#colonne-liste-modifier {
+	clear: left;
+	float: left;
+	margin-top: 20px;
+}
+
+#colonne-choix {
+	float: right;
+	min-height: 350px;
+}
+
+#colonne-choix.hover {
+	border-color: red;
+}
+
+.Champ {
+	font : normal 16px verdana;
+	border: 1px grey solid;
+	padding: 5px;
+	margin: 10px 5px;
+}
+
+.Champ.hover {
+	border-color: blue;
+}
+
+.Modifier {
+	font : normal 16px verdana;
+	border: 1px grey solid;
+	padding: 5px;
+	margin: 10px 5px;
+	color: red;
+}
+
+#submit {
+	float: left;
+	clear: left;
+	margin-top: 20px;
+}
